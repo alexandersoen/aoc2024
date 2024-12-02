@@ -1,5 +1,6 @@
-from pathlib import Path
 from collections import Counter
+from pathlib import Path
+
 from utils import ProblemParts, simple_parser_to_part
 
 DATA_PATH_STR = "data/day1.txt"
@@ -31,7 +32,6 @@ def similarity_score(list1: list[int], list2: list[int]) -> int:
 
 
 def main():
-
     part = simple_parser_to_part()
 
     data_path = Path(DATA_PATH_STR)
