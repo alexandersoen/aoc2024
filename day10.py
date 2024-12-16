@@ -51,7 +51,6 @@ def parse_trail(path: Path) -> Trail:
     trail_next_dict = defaultdict(list)
     trail_val_dict = dict()
     start_list = []
-    end_list = []
     for r, row in enumerate(trail_list):
         for c, v in enumerate(row):
             pos = complex(r, c)
